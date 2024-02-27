@@ -21,7 +21,7 @@ body {
   top: 5px;
   font-size: 3em;
   font-family: 'Devonshire', cursive;
-  color: #e35335;
+  color: #E35335;
 }
 
 #header a#logo1 img {
@@ -33,7 +33,7 @@ body {
 #header #toplink {
   text-decoration: none;
   position: absolute;
-  top:-34px;
+  top: -34px;
   right: 10px;
   color: white;
   font-size: 1.8em;
@@ -107,13 +107,16 @@ h2 strong {
 }
 
 #main-nav il li a:hover {
-  
+  background-color: #ccc;
+  color: #333;
 }
 
 #center {
-
+  width: 960px;
+  text-align: center;
 }
 
 strong {
-
+  font-weight: 900;
+  font-size: 48px;
 }
